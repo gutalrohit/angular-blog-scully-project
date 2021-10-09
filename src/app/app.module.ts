@@ -8,6 +8,7 @@ import { BusinessBlogComponent } from "./business-blog/business-blog.component";
 import { EntertainmentBlogComponent } from "./entertainment-blog/entertainment-blog.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { DemoMaterialModule } from "./material.module";
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DemoMaterialModule } from "./material.module";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    DemoMaterialModule
+    DemoMaterialModule,
+    ScullyLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
